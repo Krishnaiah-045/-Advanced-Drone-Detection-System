@@ -1,84 +1,26 @@
-🚁 Advanced Drone Detection using CNN with ESP32
-📌 Overview
+# 🚁 Advanced Drone Detection using CNN with ESP32
 
-An AI-powered drone detection system using a Convolutional Neural Network (CNN) integrated with ESP32 and ESP32-CAM. When a drone is detected, the system moves a servo motor, activates a buzzer, and stores detection data on an IoT server for remote monitoring.
+AI-powered drone detection system using CNN with ESP32 and ESP32-CAM for real-time surveillance and security applications.
 
-✨ Features
+## ✨ Features
+- Real-time drone detection using Convolutional Neural Network
+- ESP32-CAM based image capture and processing
+- Servo motor activation for tracking on detection
+- Buzzer alert for instant warning notifications
+- Detection logs uploaded to IoT server for remote monitoring
+- Low-cost embedded AI solution
 
-Real-time drone detection using CNN
+## 🛠 Hardware Components
+ESP32 Microcontroller | ESP32-CAM | Servo Motor (SG90) | Active Buzzer | 5V Power Supply
 
-ESP32-CAM based image capture
+## 💻 Software & Technologies
+**Embedded:** C/C++ (Arduino IDE/PlatformIO) | **AI Model:** CNN (TensorFlow Lite) | **Training:** Python (Jupyter/Colab) | **IoT:** HTTP/MQTT protocols
 
-Servo motor activation on detection
+## ⚙️ Working Flow
+Servo motor is activated -> ESP32-CAM captures images → CNN detects drone → On detection Buzzer activates + Data sent to IoT server → Timestamp and status logged
 
-Buzzer alert for instant warning
+## 🎯 Applications
+Anti-drone surveillance | Restricted area monitoring (airports, facilities) | Smart security systems | Event security | Wildlife protection
 
-Detection logs uploaded to IoT server
-
-Low-cost embedded AI solution
-
-🛠 Hardware Used
-
-ESP32 Microcontroller
-
-ESP32-CAM
-
-Servo Motor
-
-Buzzer
-
-Power Supply
-
-💻 Software & Technologies
-
-Embedded C / C++
-
-Arduino IDE / PlatformIO
-
-CNN (Drone Detection Model)
-
-Python (Model Training)
-
-IoT Server (HTTP / MQTT based)
-
-⚙️ Working Flow
-
-ESP32-CAM captures live images
-
-CNN detects drone presence
-
-On detection:
-
-Servo motor is triggered
-
-Buzzer is activated
-
-Detection data is sent to IoT server
-
-Data is stored for monitoring and analysis
-
-🌐 IoT Data Stored
-
-Detection status
-
-Timestamp
-
-Image / event ID
-
-🎯 Applications
-
-Anti-drone surveillance
-
-Restricted area monitoring
-
-Smart security systems
-
-🔮 Future Enhancements
-
-Cloud dashboard visualization
-
-SMS / Email alerts
-
-Multi-axis servo tracking
-
-Improved CNN accuracy
+## 🔮 Future Enhancements
+Cloud dashboard visualization | SMS/Email alerts | Multi-axis servo tracking | Improved CNN accuracy | Battery monitoring | Mobile app integration
