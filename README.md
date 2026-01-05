@@ -14,7 +14,7 @@ AI-powered drone detection system using CNN with ESP32 and ESP32-CAM for real-ti
 ESP32 Microcontroller | ESP32-CAM | Servo Motor (SG90) | Active Buzzer | 5V Power Supply
 
 ## 💻 Software & Technologies
-**Embedded:** C/C++ (Arduino IDE/PlatformIO) | **AI Model:** CNN (TensorFlow Lite) | **Training:** Python (Jupyter/Colab) | **IoT:** HTTP/MQTT protocols
+**Embedded:** C/C++ (Arduino IDE/PlatformIO) | **AI Model:** CNN (TensorFlow Lite) | **IoT:** HTTP/MQTT protocols
 
 ## ⚙️ Working Flow
 Servo motor is activated -> ESP32-CAM captures images → CNN detects drone → On detection Buzzer activates + Data sent to IoT server → Timestamp and status logged
